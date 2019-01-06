@@ -1,0 +1,154 @@
+@media (max-width: 992px) {
+  .title-block_2,
+  .title-block_3,
+  .title-block_4,
+  .title-block_5 {
+    margin-top: 40px;
+  }
+  .timer .items-time {
+    width: 200px;
+    max-width: 100%;
+  }
+  .timer p {
+    font-size: 50px;
+  }
+  .timer .texts-time {
+    font-size: 30px;
+  }
+  .section-2 {
+    height: 900px;
+  }
+  .section-2 .text-block-r {
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+  .section-2 .text-block-r img {
+    text-align: center;
+  }
+  .section-3 {
+    height: 1100px;
+  }
+  .section-3 .card {
+    margin-top: 45px;
+    flex-direction: column;
+  }
+  .section-3 .card-1 {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .team-cards .card-item img {
+    width: 230px;
+  }
+  .team-cards .team-hover {
+    width: 230px;
+    height: 312px;
+  }
+  .team-cards .team-hover .slip {
+    font-size: 12px;
+    height: 230px;
+    overflow: hidden;
+    line-height: 21px;
+  }
+}
+@media (min-width: 993px) {
+  .section-3 {
+    height: 800px;
+  }
+  .section-3 .card-1 {
+    width: 32%;
+  }
+  .team-cards .card-item img {
+    width: 300px;
+  }
+  .team-cards .team-hover {
+    width: 300px;
+    height: 405px;
+  }
+  .team-cards .slip {
+    font-size: 14px;
+    height: auto;
+    line-height: 21px;
+  }
+  .team-cards .sup-team {
+    margin-top: -10px;
+  }
+}
+@media (min-width: 1201px) {
+  .skills-text {
+    width: 90%;
+  }
+  .team-cards {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .team-cards .card-item {
+    border: 1px solid #1abc9c;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .team-cards .card-item img {
+    width: 100%;
+    z-index: -1;
+  }
+  .team-cards .card-item:hover {
+    box-shadow: 0px 0px 50px #fff;
+  }
+  .team-cards .team-hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    position: absolute;
+    width: 328px;
+    height: 443px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    line-height: 20px;
+  }
+  .team-cards .team-hover .slip {
+    font-size: 14px;
+    height: auto;
+    line-height: 21px;
+  }
+  .team-cards .team-hover:hover {
+    opacity: 1;
+    background-color: #282828;
+    border-radius: 6px 6px 0 0;
+    transition: 0.4s;
+  }
+  .team-cards i {
+    text-align: center;
+  }
+  .btn-4 {
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .btn-4 .choise-btn {
+    margin-top: 90px;
+    margin-right: 27px;
+    margin-left: -2px;
+  }
+  .btn-4 .choise-btn img {
+    width: auto;
+  }
+  .team-name {
+    color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 48px;
+    z-index: 5;
+    background-color: #232323;
+    padding-bottom: 1px;
+  }
+  .team-name p {
+    padding-top: 10px;
+  }
+}

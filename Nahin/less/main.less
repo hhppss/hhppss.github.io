@@ -1,0 +1,421 @@
+@varela: 'Varela Round', sans-serif;
+@ms: 'Montserrat', sans-serif;
+
+///_________________________!!!
+.titlep() {
+	font-family: @ms;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+
+.text-contents() {
+	color: #ffffff;
+	font-family: @varela;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+///__________________________!!!
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+// -------------------------
+// --------------Шапка сайта
+// -------------------------		
+
+
+.section-1 {
+	background: url(../img/Layer1.jpg) no-repeat 20% 0%;
+	width: 100%;
+	max-width: 100%;
+	height: 100vh;
+	min-height: 800px;
+}
+
+.header-row {
+	margin-top: 40px;
+}
+.font-aw-line  {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	padding-top: 20px;
+	i {
+		color: #ffffff;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+}
+
+.title-main {
+	margin-top: 150px;
+	margin-right: 30px;
+	font-family: @ms;
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 90px;
+	text-transform: uppercase;
+	p {
+		color: #ffffff;
+	}
+	span {
+		color: #1abc9c;
+	}
+}
+.btn-map {
+	display: flex;
+	.choise-btn {
+		width: 100%;
+		height: 30px;
+		margin-right: 10px;
+		margin-left: -15px;
+		p {
+			position: absolute;
+			color: #ffffff;
+			font-family: @varela;
+			font-size: 14px;
+			font-weight: 400;
+			text-transform: uppercase;
+			padding: 6px 0 0 9px;
+		}
+	}
+	.iten-btn img{
+		padding: 5px 0;
+	}
+}
+
+.btn-1 {
+	margin-top: 270px;
+}
+
+.timer {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	.items-time {
+		display: inline-flex;
+		flex-direction: column;
+		width: 200px;
+		max-width: 100%;
+	}
+	p {
+		color: #ffffff;
+		font-family: @ms;
+		font-size: 80px;
+		font-weight: 700;
+		line-height: 70px;
+	}
+	.texts-time {
+		color: #1cb7a5;
+		font-family: @varela;
+		font-size: 40px;
+		font-weight: 400;
+		line-height: 48px;
+		text-transform: uppercase;
+	}
+}
+
+// -----------------
+// Второй блок сайта 
+// -----------------
+
+.section-2 {
+	background-color: #232323;
+	height: 100vh;
+	min-height: 800px;
+	max-height: 100%;
+}
+.title-block_2 { 
+	.titlep();
+	margin-top: 85px;
+	p {
+		color: #ffffff;
+		padding-bottom: 20px;
+		width: 490px;
+		border-bottom: 1px solid #fff;
+	}
+	span {
+		color: #1abc9c;
+	}
+}
+.text-block-r {
+	margin-top: 90px;
+}
+.text-title {
+	color: #ffffff;
+	font-family: @ms;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	span {
+		color: #1abc9c;
+		text-transform: uppercase;
+	}
+}
+.text-contents {
+	.text-contents();
+	padding-bottom: 10px;
+}
+.btn-2 {
+	margin-top: 10px;
+	.choise-btn {
+		margin-top: 30px;
+	}
+}
+// Третий блок сайта 
+
+
+
+.section-3 {
+	background-color: #161616;
+	height: 100vh;
+	min-height: 800px;
+}
+.title-block_3 {
+	.titlep();
+	margin-top: 85px;
+	p {
+		color: #ffffff;
+		padding-bottom: 30px;
+		width: 600px;
+		border-bottom: 1px solid #fff;
+	}
+	span {
+		color: #1abc9c;
+	}
+}
+
+.card {
+	margin-top: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	.card-1 {
+		width: 28%;
+	}
+	.card-title p{
+		color: #ffffff;
+		font-family: @ms;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 48px;
+		text-transform: uppercase;
+	}
+	span {
+		color: #35a393;
+	}
+}
+.btn-3 {
+	margin-top: 10px;
+	.choise-btn {
+		margin-top: 59px;
+		margin-right: 40px;
+		margin-left: -30px;
+		img {
+			width: 100px;
+			height: 30px;
+
+		}
+	}
+}
+
+
+
+
+// Четвертый блок сайта
+
+
+.section-4 {
+	background: url(../img/Layer_4.jpg);
+	height: 100vh;
+	min-height: 900px;
+}
+
+.title-block_4 {
+	.titlep();
+	margin-top: 85px;
+	p {
+		color: #ffffff;
+		padding-bottom: 30px;
+		width: 576px;
+		border-bottom: 1px solid #fff;
+	}
+	span {
+		color: #1abc9c;
+	}
+}
+.team-cards {
+	margin-top: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	.card-item{
+	border: 1px solid #1abc9c;
+	border-radius: 6px;
+	transition: 0.5s;
+		img {
+			width: 100%;
+			z-index: -1;
+		}
+	}
+	.card-item:hover {
+		box-shadow: 0px 0px 50px #fff;
+	}
+	.team-hover{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		opacity: 0;
+		position:absolute;
+		width: 328px;
+		height: 443px;
+		padding: 20px;
+		.text-contents();
+		line-height: 20px;
+	}
+	.team-hover:hover {
+		opacity:1;
+		background-color: #282828;
+		border-radius: 6px 6px 0 0;
+		transition: 0.4s;
+	}
+	i {
+			text-align: center;
+	}
+	
+	.team-name {
+		border-radius: 0px 0px 6px 6px;
+	}
+}
+.btn-4 {
+	width: 50px;
+	margin-top: 10px;
+	margin-right: 15px;
+	.choise-btn {
+		margin-top: 90px;
+		margin-right: 27px;
+		margin-left: -2px;
+		img {
+			width: auto;
+		}
+	}
+}
+.team-name {
+	color: #ffffff;
+	font-family: @varela;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 48px;
+	z-index:5;
+	background-color: #232323;
+	padding-bottom: 1px;
+	p {
+		padding-top: 10px;
+	}
+}
+
+// Пятый блок сайта 
+
+.title-block_5 {
+	.titlep();
+	margin-top: 85px;
+	p {
+		color: #ffffff;
+		padding-bottom: 30px;
+		width: 455px;
+		border-bottom: 1px solid #fff;
+	}
+	span {
+		color: #1abc9c;
+	}
+}
+.container-contact {
+	margin-top: 90px;
+}
+.form-contact {
+	display: flex;
+	flex-direction: column;
+	color: #ffffff;
+	input, textarea{
+		caret-color: #1abc9c;
+		background: #232323;
+		border:1px solid #1abc9c;
+		margin: 10px 0;
+		font-family: @varela;
+		font-size: 22px;
+		font-weight: 400;
+	}
+	textarea {
+		height: 200px;
+		margin-bottom: 20px;
+		vertical-align: top;
+		background: #232323;
+		border:1px solid #1abc9c;
+		border-radius: 5px;
+		resize: none;
+		color: #fff;
+	}
+	button {
+		height: 70px;
+		background-color: #1abc9c;
+		border: 0px;
+		border-radius: 5px;
+		color: #ffffff;
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 48px;
+		text-transform: uppercase;
+		span {
+			font-family: @varela;
+		}
+	}
+	button:hover {
+		background-color: #1e7262;
+	}
+	button:active {
+		box-shadow: 0px 0px 5px #fff;
+	}
+}
+.btn-5 {
+	margin-top: 10px;
+	.choise-btn {
+		margin-top: 118px;
+		margin-right: 25px;
+		margin-left: -30px;
+		img {
+			width: 90px;
+			height: 30px;
+		}
+	}
+}
+
+// Футер
+
+
+.section-3-footer {
+	background-color: #161616;
+	height: 120px;
+}
+.footer-line {
+	p {
+		margin-top: 25px;
+		color: #ffffff;
+	}
+	font-family: @varela;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 48px;
+	span {
+		color: #1abc9c;
+	}
+}
+
