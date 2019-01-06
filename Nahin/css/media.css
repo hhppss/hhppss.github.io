@@ -1,9 +1,12 @@
-@media (max-width: 992px) {
+@media (min-width: 500px) and (max-width: 992px) {
   .title-block_2,
   .title-block_3,
   .title-block_4,
   .title-block_5 {
     margin-top: 40px;
+  }
+  .section-1 {
+    height: 800px;
   }
   .timer .items-time {
     width: 200px;
