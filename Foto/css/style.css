@@ -138,6 +138,7 @@ header {
   background-size: cover;
 }
 .box-1 .text-container {
+  margin-top: 5rem;
   z-index: 1;
   background-color: rgba(245, 246, 247, 0.8);
   border-radius: 15px;
@@ -203,6 +204,15 @@ header {
   letter-spacing: 3.6px;
   margin-top: 35rem;
 }
+.box-4 .form-block {
+  margin-right: 0rem;
+  width: 30rem;
+  height: 5rem;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-right: 30px;
+}
 .box-4 .input-subs {
   height: 5rem;
   max-width: 28rem;
@@ -212,20 +222,19 @@ header {
   font-family: 'Gotham Rounded Book', sans-serif;
   font-weight: normal;
   font-size: 1.6rem;
+  line-height: 1;
   text-transform: uppercase;
   letter-spacing: 2.4px;
   padding-left: 20px;
 }
-.box-4 .btn-subs {
-  height: 5rem;
+.box-4 .mail-btn {
+  position: absolute;
   width: 5rem;
+  height: 5rem;
   background-color: #16a085;
+  border-radius: 0 5px 5px 0;
   border: none;
-  border-radius: 0px 5px 5px 0px;
-  margin-left: -3px;
-  padding-top: 0;
-}
-.box-4 i {
+  line-height: 0;
   font-size: 1.6rem;
   color: #ffffff;
 }
@@ -262,7 +271,7 @@ header {
 .apps-btn_first,
 .app-btn_second {
   display: inline;
-  padding: 2rem;
+  padding: 0 2rem;
 }
 .apps-btn-apple {
   height: 5rem;
@@ -270,26 +279,15 @@ header {
   margin-right: -2px;
   background-color: #1abc9c;
   border: none;
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px;
   margin-left: -2px;
   font-family: 'Gotham Rounded Book', sans-serif;
   font-weight: normal;
   font-size: 1.8rem;
   color: #ffffff;
 }
-.apps-btn-apple_fa {
-  height: 5rem;
-  width: 5rem;
-  background-color: #16a085;
-  border: none;
-  border-radius: 0px 5px 5px 0px;
-  margin-left: -2px;
-}
-.apps-btn-apple_fa i {
-  margin-top: 0.3rem;
-  line-height: 0rem;
-  font-size: 2.5rem;
-  color: #ffffff;
+.apps-btn-apple:first-child {
+  margin-bottom: 2rem;
 }
 footer {
   min-height: 10rem;
@@ -373,6 +371,9 @@ footer img {
   }
   .box-4 .subs-title {
     margin-top: 20rem;
+  }
+  .box-4 .form-block {
+    padding-right: 5rem;
   }
   .apps-btn-apple_fa i {
     margin-top: 0.4rem;
@@ -458,9 +459,15 @@ footer img {
     left: 90%;
   }
 }
-@media (max-width: 1201px) {
+@media (max-width: 1025px) {
   .phone-hand img {
     width: 500px;
+  }
+  .apps-btn_first {
+    display: block;
+  }
+  .app-btn_second {
+    margin-bottom: 3rem;
   }
 }
 @media (max-width: 321px) {
