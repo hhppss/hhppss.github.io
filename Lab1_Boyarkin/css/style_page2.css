@@ -1,0 +1,27 @@
+body {
+	background-color: #333333;
+	color: #fff;
+	font-size: 21px;
+}
+.list {
+	display: block;
+	margin: 0 auto;
+}
+.list-item2 li {
+	list-style: circle;
+}
+.list-item3 li {
+	list-style: disc;
+}
+.list {
+	padding-top: 100px;
+}
+.table table {
+	background-color: #222;
+	margin: 0 auto;
+	margin-top: 200px;
+	text-align: center;
+}
+.table td {
+	padding: 5px;
+}
